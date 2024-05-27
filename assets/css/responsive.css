@@ -1,0 +1,45 @@
+/******LOGO********/
+@media (max-width: 992px) {
+    #header .logo {
+      font-size: 28px;
+    }
+  }
+  /*********Toggle navbar*********/
+  @media (max-width: 991px) {
+    .mobile-nav-toggle {
+      display: block;
+    }
+    .navbar ul {
+        display: none;
+      }
+  }
+  /***********HERO***********/
+  @media (max-height: 500px) {
+    #hero {
+      height: 150vh;
+    }
+  }
+  @media (max-width: 768px) {
+    #hero h2 {
+      font-size: 28px;
+    }
+  }
+  @media (min-width: 1024px) {
+    #hero p {
+      width: 60%;
+    }
+  }
+  
+@media (min-width: 1024px) {
+
+    #hero .carousel-control-prev,
+    #hero .carousel-control-next {
+      width: 5%;
+    }
+  }
+  /************about***********/
+  @media (min-width: 992px) {
+    #about .about-item p {
+      width: 80%;
+    }
+  }
