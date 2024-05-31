@@ -74,7 +74,7 @@ h6 {
   font-weight: 400;
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
-  float: right;
+  
 }
 
 .resume-item {
@@ -1247,3 +1247,16 @@ section {
     font-size: 12px;
   }
 }
+@media screen and (max-width:346px) {
+  
+  .top-bar {
+    display: none;
+  }
+  
+  #footer .footer-top .footer-info h3 {
+    font-size: 31px;
+    padding: 2px 0 2px 6px;
+    letter-spacing: 2px;
+  }
+}
+
