@@ -1259,4 +1259,7 @@ section {
     letter-spacing: 2px;
   }
 }
+.col-md-4 p{
+  text-align: justify;
+}
 
