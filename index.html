@@ -20,8 +20,10 @@
   <link href="assets/css/style.css" rel="stylesheet">
   
 </head>
-<body >
+<body>
+
   <audio src="assets/img/bg.mp3" autoplay="true" loop="true"></audio>
+
    <div class="top-bar">
   <div class="container d-flex justify-content-center justify-content-md-between header-transparent mb-2">
     <div class="contact-info d-flex align-items-center">
@@ -36,6 +38,7 @@
     </div>
   </div>
 </div>
+<div class="cursor"></div>
 <header id="header" class="fixed-tope d-flex align-items-center header-transparent" >
   <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
@@ -69,7 +72,7 @@
                     <h5 class="animate__animated animate__fadeInUp mb-3" style="color:white;font-family:'Shadows Into Light', cursive;font-weight: 500px !important; font-size: 50px!important;">
                       Welcome To My Web Site
                     </h5>
-                    <h2 class="animate__animated animate__fadeInDown">SABER RADDAOUI</h2>
+                    <h2 class="animate__animated animate__fadeInDown"> SABER RADDAOUI</h2>
                     <h5 class="animate__animated animate__fadeInUp" style="color:white;font-family: 'Shadows Into Light', cursive;font-weight: 400px !important; font-size: 25px!important;">
                       Full Stack web devlopper
                     </h5>
@@ -116,9 +119,10 @@
                   
                   <p>I'am SABER RADDAOUI From Tunisia. I'm a Full Stack Web Developer.
                      I hold a diploma in Information Technology specializing in Information Systems Development, 
-                     passionated about web and application development. I designed this site so you can get to know me on a personal level, my career as a Software Developer, my portfolio and much more. Enjoy !</p>
+                    passionated about web and application development. I designed this site so you can get to know me on a personal level,
+                    my career as a Web Developer, my portfolio and much more. Enjoy !</p>
                   <a class="btn btn-rounded btn-download" href="CV SABER RADDAOUI.pdf" download target="_blank">Download CV</a>
-                </div>
+                  </div>
               </div>
             </div>
           <div class="swiper-pagination"></div>
@@ -135,61 +139,21 @@
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
         </div>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/portf/2023-07-14.png" class="img-fluid" alt="">
-                <a href="assets/img/portf/2024-01-27 (2).png" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-              </figure>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 1</a></h4>
-                <p>App</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/portf/asm1.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portf/asm1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-              </figure>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 3</a></h4>
-                <p>Web</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/portf/compte.png" class="img-fluid" alt="">
-                <a href="assets/img/portf/compte.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 2"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-              </figure>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 2</a></h4>
-                <p>App</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portf/image1.png" class="img-fluid" alt="">
-                <a href="assets/img/portf/image1.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 2"><i class="bi bi-plus"></i></a>
-                <a href="projet1.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portf/image1.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
+                  title="App 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 2</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.html">Web1</a></h4>
               </div>
             </div>
           </div>
@@ -197,67 +161,122 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="assets/img/portf/image2.png" class="img-fluid" alt="">
-                <a href="assets/img/portf/image2.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 2"><i class="bi bi-plus"></i></a>
-                <a href="projet1.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                <a href="assets/img/portf/image2.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
+                  title="Card 1"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </figure>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html">Web1</a></h4>
+                </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="portfolio-wrap">
+                    <figure>
+                <img src="assets/img/portf/asm1.jpg" class="img-fluid" alt="">
+                <a href="assets/img/portf/asm1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i
+                    class="bi bi-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 2</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">App 1</a></h4>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portf/image3.png" class="img-fluid" alt="">
-                <a href="assets/img/portf/image3.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
+                <img src="assets/img/portf/asm1.png" class="img-fluid" alt="">
+                <a href="assets/img/portf/asm1.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
+                  title="Web 3"><i class="bi bi-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 3</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.html">App1</a></h4>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portf/planification.png" class="img-fluid" alt="">
-                <a href="assets/img/portf/planification.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 1"><i class="bi bi-plus"></i></a>
+                <img src="assets/img/portf/asm02.png" class="img-fluid" alt="">
+                <a href="assets/img/portf/asm02.png" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i
+                    class="bi bi-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
-              </figure>
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 1</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                </figure>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html">App 1</a></h4>
+                  
+                  </div>
+                  </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portf/2024-01-27 (2).png" class="img-fluid" alt="">
-                <a href="assets/img/portf/2024-01-27 (2).png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <img src="assets/img/portf/asm4.png" class="img-fluid" alt="">
+              <a href="assets/img/portf/asm4.png" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i
+                  class="bi bi-plus"></i></a>
+              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 3</a></h4>
-                <p>Card</p>
+              <h4><a href="portfolio-details.html">App 1</a></h4>
+              </div>
+              </div>
+              </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portf/projet3.png" class="img-fluid" alt="">
+                      <a href="assets/img/portf/projet3.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
+                        title="Card 3"><i class="bi bi-plus"></i></a>
+                      <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                      </figure>
+                      <div class="portfolio-info">
+                      <h4><a href="portfolio-details.html">Web 2</a></h4>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+                      <img src="assets/img/portf/parc1.png" class="img-fluid" alt="">
+                      <a href="assets/img/portf/parc1.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
+                        title="App 2"><i class="bi bi-plus"></i></a>
+                      <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                      </figure>
+                      <div class="portfolio-info">
+                      <h4><a href="portfolio-details.html">App 2</a></h4>
+                      
+                      </div>
+                      </div>
+                      </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portf/projet3.png" class="img-fluid" alt="">
-                <a href="assets/img/portf/projet3.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                <img src="assets/img/portf/parc2.png" class="img-fluid" alt="">
+                <a href="assets/img/portf/parc2.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
+                  title="Card 2"><i class="bi bi-plus"></i></a>
+                <a href="projet1.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
               </figure>
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 1</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">App 2</a></h4>
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portf/parc3.png" class="img-fluid" alt="">
+                <a href="assets/img/portf/parc3.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery"
+                  title="Web 2"><i class="bi bi-plus"></i></a>
+                <a href="projet1.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 2</a></h4>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
       </section>
@@ -409,21 +428,23 @@
     </section>
     <section id="featured-services">
       <div class="container">
+    
         <div class="row">
           <div class="col-lg-4 box">
             <i class="bi bi-briefcase"></i>
             <h4 class="title"><a href="">FrontEnd Web development</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <p class="description">Write code for website designing, make the look of a web / mobile application attractive,
+              appealing and effective </p>
           </div>
           <div class="col-lg-4 box box-bg">
             <i class="bi bi-card-checklist"></i>
-            <h4 class="title"><a href="">Application Development</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <h4 class="title"><a href="">BackEnd Development</a></h4>
+            <p class="description">Write code to receive users information input and save it in database.</p>
           </div>
           <div class="col-lg-4 box">
             <i class="bi bi-binoculars"></i>
-            <h4 class="title"><a href="">Coaching web</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <h4 class="title"><a href="">DataBase</a></h4>
+            <p class="description">Maintaining data integrity, keeping it available to users and preventing unauthorized access.</p>
           </div>
         </div>
       </div>
@@ -506,7 +527,7 @@
             <div class="col-lg-6">
               <h3 class="resume-title">Professional Experience</h3>
               <div class="resume-item">
-                <h4>Intern Mean Stack developper </h4>
+                <h4>Intern Mean Stack Web Developper </h4>
                 <h5>01 July 2022 - 31 Aout 2022</h5>
                 <p><em> <a href="http://www.asm.com">All Soft Multimedia SFAX </a></em></p>
                 <p>
@@ -526,7 +547,6 @@
                   <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
                   <li>Recommended and consulted with skills on the most appropriate graphic design</li>
                   <li>Created 4+ design presentations and proposals a month for skills and account managers</li>
-                  <li> <a href="http://www.youtube.com">see demo</a>
                   </li>
                 </ul>
                 </p>
